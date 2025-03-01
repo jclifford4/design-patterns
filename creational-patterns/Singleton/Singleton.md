@@ -1,11 +1,11 @@
 # Singleton Pattern
 
-<https://refactoring.guru/design-patterns/singleton>
+[Source Material][def]
 
 ## Solution
 
--Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
--Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
+- Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
+- Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor to create an object and saves it in a static field. All following calls to this method return the cached object.
 
 ## Analogy
 
@@ -62,3 +62,6 @@ class Application is
 ```
 
 ![Singleton Structure](image.png)
+
+
+[def]: https://refactoring.guru/design-patterns/singleton
