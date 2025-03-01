@@ -11,6 +11,10 @@
 
 The government is an excellent example of the Singleton pattern. A country can have only one official government. Regardless of the personal identities of the individuals who form governments, the title, “The Government of X”, is a global point of access that identifies the group of people in charge.
 
+## Structure
+
+![Singleton Structure](image.png)
+
 ## Database Singleton Pseudocode Example
 
 ```c#
@@ -60,8 +64,5 @@ class Application is
         // The variable `bar` will contain the same object as
         // the variable `foo`.
 ```
-
-![Singleton Structure](image.png)
-
 
 [def]: https://refactoring.guru/design-patterns/singleton
